@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cabin+Condensed:wght@400;500;600;700&display=swap');
+
+body {
+    background-color: #0D0708;
+    margin: 0;
+    color: #F2F2F2;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.i {
+    font-family: "Bodoni Moda", sans-serif;
+    margin: 0px 12%;
+    font-weight: 600;
+    font-size: 48px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+p {
+    font-family: "Philosopher", serif;
+    margin: 0px 12%;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: left;
+    line-height: 1.6;  
+}
+
+
+.intro-text {
+    padding-top: 30px;  
+    padding-bottom: 30px;
+    max-width: 50%;
+    background-color: #202840;
+}
+
+.bio-text {
+    padding-top: 30px;  
+    padding-bottom: 30px;
+    background-color: #5F6273;
+}
+
+.results {
+    margin: 0px 12%;
+    font-size: 24px;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.results ul {
+    font-size: 22px;
+    margin: 0;
+    padding-left: 0;
+    list-style-position: inside;
+    list-style-type: disc
+}
+
+.results li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    list-style-position: outside;
+}
+
+.comp-info {
+    background-color: #202840;
+    padding-top: 30px;  
+    padding-bottom: 30px;
+}
+
+footer {
+    padding: 15px 0px;
+    border-top: 2px solid #f2f2f2;
+    background-color: 888;
+    margin-top: 40px;
+}
+
+footer p {
+    text-align: right;
+    font-size: 16px;
+    color: #f2f2f2;
+}
+
+.bio-image {
+    margin: 0px 0%;
+    padding-top: 50px; 
+    margin-bottom: -2px 
+}
+
+button {
+    font-family: "Bodoni Moda", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 2px 5px;
+}

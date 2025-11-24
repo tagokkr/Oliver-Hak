@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cabin+Condensed:wght@400;500;600;700&display=swap');
+
+.topnav {
+    box-sizing: border-box;
+    padding: 15px 15px;
+    padding-left: 15px;
+    background-color: #0D0D0D;
+    background: linear-gradient(to bottom, rgba(13, 13, 13, 0.9), rgba(13, 13, 13, 0));
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    margin-bottom: -18%;
+}
+
+.topnav header li,
+.topnav header a,
+.topnav header button,
+.topnav li,
+.topnav a,
+.topnav button {
+    font-family: "Bodoni Moda", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    margin-right: auto;
+    cursor: pointer;
+}
+
+/* .logo:hover {
+    transform: scale(1.01);
+    transition: all 0.4s ease 0s;
+}*/
+
+.nav-links {
+    list-style: none;
+}
+.nav-links li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #F2C0A2;
+    font-size: 28px;
+}
+
+button {
+    background-color: rgba(140, 59, 13,0.9);
+    border: solid 2px #f2f2f2;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(140, 59, 13,0.67);
+    border: solid 1px #F2C0A2;
+    font-size: 28px;
+    color: #F2C0A2;
+}
+
+.active {
+    color: #b4c0d9;
+    background-color: #0D0D0D;
+    padding: 2px 8px;
+    border-radius: 8px;
+    border: solid 1px #f2f2f2;
+}
+
+.active:hover {
+    color: #F2C0A2;
+    font-size: 32px;
+    border: solid 1px #F2C0A2;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 28px;
+    color: #f2f2f2;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .menu-icon {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 25px;
+        font-size: 28px;
+        color: #f2f2f2;
+        cursor: pointer;
+        z-index: 1001;
+    }
+
+    .menu-icon:hover {
+        color: #F2C0A2;
+        font-size: 32px;
+        transition: all 0.3s ease 0s;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #0D0D0D;
+        width: 20%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1000
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        justify-content: space-between;
+        padding: 15px 0;
+    }
+
+    header {
+        flex-direction: column;
+        align-items:flex-end;
+    }
+
+    .cta {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0;
+    }
+    
+    .logo {
+        position: relative;
+        margin: 0 auto;
+        transform: scale(1.05);
+    }
+}
+
+
+
